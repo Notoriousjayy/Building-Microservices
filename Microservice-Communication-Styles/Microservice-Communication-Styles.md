@@ -215,7 +215,7 @@ In both cases, the data flow is typically unidirectional: one microservice publi
 
 However, a more problematic variation of this pattern arises when multiple microservices both read and write to the same shared database. This scenario, can lead to conflicts and inconsistencies. Both the Order Processor and the Warehouse microservices modify the same row in an order table, creating a tightly coupled and error-prone system. Such implementations are generally discouraged due to the challenges they introduce.
 
-![An Example of Common Coupling](Communication_Through_Common_Data.svg)
+![An Example of Common Coupling](Common_Coupling.svg)
 
 ### Benefits of Communication Through Shared Data
 
