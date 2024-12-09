@@ -55,29 +55,35 @@ For a more thorough treatment of this material, readers are encouraged to consul
 
 ### 1.2.1. Proof by Mathematical Induction  
 
-Mathematical induction is a powerful method used to prove statements about integers. Let \( P(n) \) represent a proposition about an integer \( n \). To prove that \( P(n) \) is true for all positive integers, follow these steps:  
+Mathematical induction is a powerful method used to prove statements about integers. Let $P(n)$ represent a proposition about an integer $n$. To prove that $P(n)$ is true for all positive integers, follow these steps:  
 
-1. **Base Case:** Demonstrate that \( P(1) \) is true.  
-2. **Inductive Step:** Prove that if \( P(k) \) is true for all integers up to \( n \), then \( P(n+1) \) is also true.  
+1. **Base Case:** Demonstrate that $P(1)$ is true.  
+2. **Inductive Step:** Prove that if $P(k)$ is true for all integers up to $n$, then $P(n+1)$ is also true.  
 
 For example, consider the series of equations:  
-\[
+$$
 1 = 1^2, \quad 1 + 3 = 2^2, \quad 1 + 3 + 5 = 3^2, \quad 1 + 3 + 5 + 7 = 4^2.
-\]  
+$$  
 We observe the general property:  
-\[
+$$
 1 + 3 + 5 + \dots + (2n-1) = n^2.
-\]  
-To prove this for all \( n \), follow the steps:  
+$$  
+To prove this for all $n$, follow the steps:  
 
-1. Base Case: For \( n = 1 \), the equation holds: \( 1 = 1^2 \).  
-2. Inductive Step: Assume the property holds for \( n \), i.e., \( 1 + 3 + \dots + (2n-1) = n^2 \). Adding \( 2n+1 \) to both sides yields:
-   \[
+1. **Base Case:** For $n = 1$, the equation holds: $1 = 1^2$.  
+2. **Inductive Step:** Assume the property holds for $n$, i.e.,  
+   $$
+   1 + 3 + \dots + (2n-1) = n^2.
+   $$  
+   Adding $2n+1$ to both sides yields:  
+   $$
    1 + 3 + \dots + (2n-1) + (2n+1) = n^2 + 2n + 1 = (n+1)^2.
-   \]  
-Thus, the property holds for \( n+1 \).
+   $$  
 
-This structured proof process ensures the validity of \( P(n) \) for all positive integers.
+Thus, the property holds for $n+1$.  
+
+This structured proof process ensures the validity of $P(n)$ for all positive integers.
+
 
 ---
 
