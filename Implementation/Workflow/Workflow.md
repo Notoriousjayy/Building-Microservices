@@ -300,7 +300,7 @@ The orchestrator knows:
 
 For example, the **Order Processor** sends requests to the `Payment Gateway` to process payment and to the `Warehouse` to reserve stock. These interactions typically follow a request-response pattern, where the orchestrator waits for confirmation or results before moving to the next step.  
 
-![An example of how an orchestrated saga may be used to implement our order fulfillment process](OrchestratedSaga)
+![An example of how an orchestrated saga may be used to implement our order fulfillment process](OrchestratedSaga.svg)
 
 
 
