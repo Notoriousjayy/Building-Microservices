@@ -939,7 +939,7 @@ In traditional networking terminology, "east-west" traffic refers to communicati
 
 Broadly speaking, an **API gateway** operates at the system’s perimeter, managing north-south traffic. Its primary role is to handle external requests entering the system and route them to internal microservices. Conversely, a **service mesh** focuses on managing internal microservice communication—east-west traffic—within the perimeter.
 
-![API Gateways and Service Meshes Overview](ServiceMeshesAndAPIGateways.svg)
+![API Gateways and Service Meshes Overview](cluster_perimeter.svg)
 
 Both service meshes and API gateways serve as intermediaries that can provide shared functionality without requiring changes to microservice code or the creation of additional client libraries. Essentially, they act as proxies, enabling features like service discovery, logging, or access control. However, it’s critical that any shared functionality implemented through these proxies remains generic and independent of the specific behaviors of individual microservices.
 
